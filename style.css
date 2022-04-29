@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body{
+  background-color: rgb(246,247,250);
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  text-align: center;
+  margin: 50px 0;
+}
+main{
+  text-align: center;
+  margin: auto;
+}
+.input{
+  margin-top: 20px;
+}
+#meme-image-container {
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+  background-color: white;
+  width: 500px;
+  height: 450px;
+}
+.meme-image-container {
+  border: 1px solid black;
+}
+
+#meme-image {
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#meme-text {
+  position: absolute;
+  bottom: 20px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+.fire {
+  border: 3px dashed red;
+}
+
+#fire {
+  background-color: red;
+}
+
+.water {
+  border: 5px double blue;
+}
+
+#water {
+  background-color: blue;
+}
+
+.earth {
+  border: 6px groove green;
+}
+
+#earth {
+  background-color: green;
+}
+.memes, .buttons{
+  margin-top: 20px;
+}
+.memes img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+
+
